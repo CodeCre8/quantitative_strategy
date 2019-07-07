@@ -65,7 +65,7 @@
 
 # Load the dataset
 # ============================================================================
-tradedata <- read.csv("http://assets.datacamp.com/course/quantinsti/data_ch2.csv", header = TRUE, stringsAsFactors = FALSE)
+tradedata <- read.csv("http://assets.datacamp.com/course/quantinsti/data_ch3.csv", header = TRUE, stringsAsFactors = FALSE)
 
 # Initialize the variables for the PNL (profit and loss) table to the dataset
 # ============================================================================
@@ -151,4 +151,4 @@ run_basic_strategy <- function (tradedata, parameter) {
 # ============================================================================
 # Did my strategy got any fills? num_traded_lots
 # Did my strategy make any profit? mtm_final
-run_basic_strategy(tradedata, 9)
+run_basic_strategy(tradedata, 2)
